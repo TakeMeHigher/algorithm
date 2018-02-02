@@ -35,10 +35,10 @@ def pre_order(root):
 #中序遍历
 def in_order(root):
     if root:
-        in_order(root.lchild)
+        in_order(root.lchild)#a
         print(root.data, end='')
         in_order(root.rchild)
-#BDCAEFG
+#ABCDEGF
 #后序遍历
 def post_order(root):
     if root:
